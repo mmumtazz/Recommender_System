@@ -1,5 +1,6 @@
 Content-Based Movie Recommender System
 A content-based movie recommender system that suggests similar movies based on their textual features. This project uses the IMDb Top 1000 Movies dataset and leverages TF-IDF Vectorization and Cosine Similarity to find movies with similar genres, plots, and crew.
+
 📋 Table of Contents
 Features
 Project Workflow
@@ -11,6 +12,7 @@ Vectorization: TF-IDF vs. CountVectorizer
 How to Use
 Dataset
 License
+
 ✨ Features
 Data Cleaning: Preprocesses the IMDb dataset to handle missing values and format text.
 Exploratory Data Analysis (EDA): Includes visualizations like genre distribution bar plots, word clouds, and similarity heatmaps.
@@ -18,6 +20,7 @@ Feature Engineering: Creates feature sets based on "Genre-Only" and "Combined Fe
 Comparative Analysis: Compares the performance and recommendation quality of TF-IDF vs. CountVectorizer.
 Similarity Modeling: Uses Cosine Similarity to calculate the likeness between movies.
 Recommendation Function: A simple function to get top N movie recommendations for a given title.
+
 📂 Project Workflow
 The project follows a systematic workflow:
 Data Loading & Cleaning: The IMDb dataset is loaded, and essential preprocessing is performed to clean the data for analysis.
@@ -25,6 +28,7 @@ Exploratory Data Analysis (EDA): Genre distributions are analyzed using plots an
 Feature Engineering: Text features (like genres, overview) are converted into numerical vectors using TF-IDF and CountVectorizer.
 Model Building: A cosine similarity matrix is computed to determine the similarity score between all pairs of movies.
 Recommendation Generation: A function is created to retrieve and rank movies based on their similarity scores to a user's input movie.
+
 🛠️ Technologies Used
 Technology	Description
 Python	Core programming language.
@@ -35,6 +39,7 @@ Matplotlib	For creating static and interactive plots.
 Seaborn	For high-level, attractive statistical graphics.
 WordCloud	To generate genre word clouds.
 Jupyter Notebook	For interactive development and analysis.
+
 🚀 Setup and Installation
 To run this project locally, follow these steps:
 Clone the repository:
