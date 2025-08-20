@@ -133,8 +133,7 @@ print("\nRecommendations for 'Inception' using CountVectorizer:")
 recommendations_count = recommend("Inception", cosine_sim_count)
 print(recommendations_count)
 # Expected Output: A list of movies that are also 'Action' or 'Adventure'.
-code
-Code ```
+```
 ---
 ## 📂 Dataset
 This project uses the IMDB Top 1000 Movies dataset, sourced from Kaggle. It contains detailed information on the top 1000 movies as rated by IMDb users.
@@ -144,5 +143,3 @@ File: imdb_top_1000.csv
 ## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-code
-Code
