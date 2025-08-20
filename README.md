@@ -142,5 +142,5 @@ This project uses the **IMDB Top 1000 Movies** dataset, sourced from Kaggle. It 
 -   **File**: `imdb_top_1000.csv`
 ---
 ## 📄 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
