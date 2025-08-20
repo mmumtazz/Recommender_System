@@ -136,9 +136,10 @@ print(recommendations_count)
 ```
 ---
 ## 📂 Dataset
-This project uses the IMDB Top 1000 Movies dataset, sourced from Kaggle. It contains detailed information on the top 1000 movies as rated by IMDb users.
-- Source: Kaggle - IMDB Top 1000 Movies
-- File: imdb_top_1000.csv
+This project uses the **IMDB Top 1000 Movies** dataset, sourced from Kaggle. It contains detailed information on the top 1000 movies as rated by IMDb users.
+
+-   **Source**: [Kaggle - IMDB Top 1000 Movies](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-top-1000-movies)
+-   **File**: `imdb_top_1000.csv`
 ---
 ## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
