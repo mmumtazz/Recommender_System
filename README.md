@@ -120,7 +120,7 @@ We explored two key decisions in building the recommendation engine.
 The core of the project is the recommendation function. To get movie suggestions, you can call it with a movie title.
 
 ```python
-# Example of generating recommendations for 'Inception'
+````# Example of generating recommendations for 'Inception'
 
 # Using the TF-IDF model
 print("Recommendations for 'Inception' using TF-IDF:")
@@ -134,7 +134,7 @@ recommendations_count = recommend("Inception", cosine_sim_count)
 print(recommendations_count)
 # Expected Output: A list of movies that are also 'Action' or 'Adventure'.
 code
-Code
+Code'''````
 
 ## 📂 Dataset
 This project uses the IMDB Top 1000 Movies dataset, sourced from Kaggle. It contains detailed information on the top 1000 movies as rated by IMDb users.
